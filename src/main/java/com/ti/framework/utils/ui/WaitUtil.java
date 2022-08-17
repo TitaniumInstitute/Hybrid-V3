@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WaitUtil {
 
-  private static WebDriver driver = LocalDriverFactory.getInstance().getDriver();
+  private static final WebDriver driver = LocalDriverFactory.getInstance().getDriver();
 
   public static void sync() throws FrameworkException {
     String pageLoadStatus;

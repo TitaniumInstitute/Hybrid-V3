@@ -19,7 +19,7 @@ import org.openqa.selenium.WebElement;
 
 public class SeleniumUtil {
 
-  private static WebDriver driver = LocalDriverFactory.getInstance().getDriver();
+  private static final WebDriver driver = LocalDriverFactory.getInstance().getDriver();
 
   public static WebElement highLight(WebElement element) {
     for (int i = 0; i < 3; i++) {

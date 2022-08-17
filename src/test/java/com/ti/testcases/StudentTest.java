@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class StudentTest extends BaseTest{
 
-  private static String caseId = PropertyManager.getInstance().getProperty("AddStudentTestId");
+  private static final String caseId = PropertyManager.getInstance().getProperty("AddStudentTestId");
 
   @Test(dataProviderClass = DataClass.class, dataProvider = "StudentsJSONData")
   void createNewStudent(Method method, String... studentInfo){

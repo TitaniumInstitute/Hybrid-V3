@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest{
 
-  private static String caseId = PropertyManager.getInstance().getProperty("LoginTestId");
+  private static final String caseId = PropertyManager.getInstance().getProperty("LoginTestId");
 
   @Test
   void loginWithRightCredentials(Method method){
