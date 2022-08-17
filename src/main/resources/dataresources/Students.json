@@ -1,0 +1,37 @@
+{
+  "Student": [
+    {
+      "Gender":"Female",
+      "FirstName":"Tyffany",
+      "LastName": "Sanders",
+      "DayOfBirth": "14",
+      "CurrentAddress": "TestAddress 01",
+      "Email": "test+98@email.com",
+      "User": "testuser01",
+      "Password": "test789",
+      "SchoolDetail": "012"
+    },
+    {
+      "Gender":"Male",
+      "FirstName":"Jason",
+      "LastName": "Royers",
+      "DayOfBirth": "21",
+      "CurrentAddress": "TestAddress 02",
+      "Email": "test+99@email.com",
+      "User": "testuser02",
+      "Password": "test456",
+      "SchoolDetail": "090"
+    },
+    {
+      "Gender":"Female",
+      "FirstName":"Kimberly",
+      "LastName": "Luan",
+      "DayOfBirth": "28",
+      "CurrentAddress": "TestAddress 03",
+      "Email": "test+100@email.com",
+      "User": "testuser03",
+      "Password": "test123",
+      "SchoolDetail": "045"
+    }
+  ]
+}
